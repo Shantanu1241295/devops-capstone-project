@@ -1,0 +1,22 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: ci-build
+spec:
+  workspaces:
+    - name: source
+  steps:
+    - name: checkout
+      image: alpine/git:latest
+      script: |
+        git clone https://github.com/Shantanu1241295/ibm-final-project.git .
+    - name: lint
+      image: python:3.9-slim
+      script: |
+        pip install flake8
+        flake8 .
+    - name: test
+      image: python:3.9-slim
+      script: |
+        pip install -r requirements.txt nosetests nose
+        nosetests
