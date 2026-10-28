@@ -1,13 +1,3 @@
-# ibm-final-project# ibm-final-project
+# devops-capstone-project
 
-## Project Details
-- **Project Name:** IBM Final Project
-- **Description:** Final project submission repository containing implementation details and documentation.
-- **Author:** Shantanu
-- **Status:** Submitted# ibm-final-project
-
-## Project Details
-- **Project Name:** IBM Final Project
-- **Description:** Final project submission repository containing implementation details and documentation.
-- **Author:** Shantanu
-- **Status:** Submitted
+[![Build Status](https://github.com/Shantanu1241295/devops-capstone-project/actions/workflows/workflow.yml/badge.svg)](https://github.com/Shantanu1241295/devops-capstone-project/actions/workflows/workflow.yml)
